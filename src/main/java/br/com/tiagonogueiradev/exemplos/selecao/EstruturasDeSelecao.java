@@ -1,7 +1,7 @@
 /**
  * 
  */
-package java.exemplos;
+package br.com.tiagonogueiradev.exemplos.selecao;
 
 /**
  * @author tiagonogueira
