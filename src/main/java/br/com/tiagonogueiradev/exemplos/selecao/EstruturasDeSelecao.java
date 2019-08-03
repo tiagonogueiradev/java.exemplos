@@ -47,13 +47,34 @@ public class EstruturasDeSelecao {
 		System.out.println("agora vamos testar o else");// a proposito esse teclado do mac é foda pra quem não está acostumado kkkk
 
 		if(!condicao) {
-			System.out.println("äqui nao vai imprimir");
+			System.out.println("aqui nao vai imprimir");
 		}else {
 			System.out.println("mas aqui vai porque a condicao é falsa");
 			//o else trabalha como exceção a condição verdadeira
 			//vamos identar esse código
 		}
+		
+		//conição ternário
+		System.out.println("É uma condição " + (condicao?"Verdadeira":"falsa"));
+		
+		//é o controlador de fluxo caso, pode ser usado com Enuns também
+		int opcao = 50;
+		switch (opcao ) {
+		case 0:
+			System.out.println("Opção 0 ");
+			break ;
+		case 1:
+			System.out.println("Opção 1 ");
 
+			break ;
+		case 2:
+			System.out.println("Opção 2 ");
+
+			break ;
+
+		default:
+			System.out.println("Não encontrou nenhuma opção ");
+		}
 
 	}
 
